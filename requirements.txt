@@ -1,0 +1,34 @@
+streamlit
+# create web application using python 
+# It converts your python scripts into a web UI 
+# Use for chat interface , button , text inputs
+
+langchain
+# langchain is a framework to build application using LLM
+# Connects LLM with data 
+# Manages prompts
+# Creates chains (Inputs -> processing -> Output)
+
+langchain_community 
+# Extra integration and tools provided by the community 
+# Database Connectors
+# Document Loaders
+# FAISS Vector store |FAISS - Facebook AI Similarity Search
+
+langchain_core 
+# Core base components of langchain
+# Base classes, Runnables , Core Prompt templates
+# Note - We are not using it directly but it is required by langchain
+
+
+ollama
+#  Run LLMS locally on computer
+# It connects your app to locally installed models
+
+## Summary
+# Streamlit ->  Creates UI
+# Langchain -> Connects LLMs+Data
+# Langchain Community -> Extra Documents (FAISS , Loaders)
+# Langchain Core -> Internal BAckbone
+# Ollama -> Runs Local LLM
+# User -> Streamlit UI-> Langchain ->  FAISS(Vector Search) -> Ollama(LLms) -> Response(Streamlit)
